@@ -12,8 +12,10 @@ You could also symlink the files in this repo, or simply specify this repo as a 
 
 ## Usage
 
-`knife inventory
-knife inventory html`
+```
+knife inventory
+knife inventory html
+```
 
 Results will print to STDOUT, use ridirection to output to file or generate an email, for example...
 
