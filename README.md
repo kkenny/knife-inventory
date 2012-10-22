@@ -19,8 +19,12 @@ knife inventory html
 
 Results will print to STDOUT, use ridirection to output to file or generate an email, for example...
 
-`knife inventory > ~/chef/inventory/$(date +%Y-%m-%d).csv`
+```
+knife inventory > ~/chef/inventory/$(date +%Y-%m-%d).csv
+```
 
 or
 
-`knife inventory | mail -s "Chef Inventory Report for $(date +%Y-%m-%d)" user@example.com`
+```
+knife inventory | mail -s "Chef Inventory Report for $(date +%Y-%m-%d)" user@example.com
+```
