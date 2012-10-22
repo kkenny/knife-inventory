@@ -12,7 +12,7 @@ module Limelight
       require 'chef/knife/node_list'
     end
 
-    banner "knife inventoryHtml"
+    banner "knife inventory html"
 
     def h
       @highline ||= Highline.new
