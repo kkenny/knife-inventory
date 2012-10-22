@@ -26,7 +26,7 @@ module Limelight
       Chef::Search::Query.new.search(:node, "name:*.*") do |n|
 	node = n unless n.nil?
 
-      ##THIS COULD BE BETTER
+      ##THIS COULD BE BETTER *WAY* BETTER
 	defined?(node.name) || node.name = "empty"
 	defined?(node.fqdn) || node.fqdn = "empty"
 	defined?(node.chef_environment) || node.chef_environment = "empty"
